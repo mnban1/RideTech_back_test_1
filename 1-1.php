@@ -15,3 +15,13 @@
  *  - php 1-1.php
  */
 // ここから実装してください
+
+// 1) 変数 $name = "Taro" を作る
+$name = "Taro";
+
+// 2) 画面に "Hello, Taro!" と表示する（echo）
+echo "Hello, " . $name . "!" . PHP_EOL;
+
+// 3) 変数 $age = 20 を作り、var_dump($age) を表示する
+$age = 20;
+var_dump($age);
